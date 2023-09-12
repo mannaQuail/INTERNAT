@@ -1,0 +1,128 @@
+*{padding:0;margin:0}
+a:link{color:black; text-decoration: none;}
+a:visited{color:black; text-decoration: none;}
+a:hover{color:black; text-decoration: none;}
+.logo{
+	width: 12.5%;
+	height: 60px;
+	margin-left: 8.33%;
+	font-family: Outfit;
+	font-size: 30px;
+	font-weight: 800;
+	display: flex;
+	align-items: center;
+}
+.logo span{
+	color: #9F2230;
+}
+.loginImg{
+	width: 83.34%;
+	margin-left: 8.33%;
+	margin-right: 8.33%;
+	position: relative;
+}
+.loginImg img{
+	width: 100%;
+	border-radius: 20px;
+}
+.loginImg .hiding{
+	width: 50%;
+	height: 40%;
+	background-color: #5C9BE6;
+	position: absolute;
+	top: 4%;
+	left: 10%;
+	border-radius: 15px;
+	font-family: Outfit;
+	font-size: 35px;
+	font-weight: 800;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.loginImg .hiding span{
+	color: #9F2230;
+}
+
+.loginInput{
+	width: 66.66%;
+	height: 250px;
+	margin-left: 16.67%;
+	margin-right: 16.67%;
+	margin-top: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #D9D9D9;
+	border-radius: 30px;
+	display: grid;
+	grid-template-columns: 2fr 3fr 2fr;
+	grid-template-rows: 1fr 1fr;
+}
+.loginInput #nickname{
+	grid-column: 1/2;
+	grid-row: 1/2;
+	font-family: Outfit;
+	font-size: 30px;
+	display: grid;
+	justify-content: right;
+	margin-top: 65px;
+	margin-bottom: 10px;
+}
+.loginInput #nicknameInput{
+	grid-column: 2/3;
+	grid-row: 1/2;
+	margin-top: 65px;
+	margin-bottom: 5px;
+	height: 35px;
+	width: 300px;
+	text-align: center;
+	font-family: Outfit;
+	font-size: 20px;
+	border-radius: 15px;
+	border: 0px;
+}
+.loginInput #password{
+	grid-column: 1/2;
+	grid-row: 2/3;
+	font-family: Outfit;
+	font-size: 30px;
+	display: grid;
+	justify-content: right;
+	margin-top: 15px;
+	margin-bottom: 60px;
+}
+.loginInput #passwordInput{
+	grid-column: 2/3;
+	grid-row: 2/3;
+	margin-top: 15px;
+	margin-bottom: 55px;
+	height: 35px;
+	width: 300px;
+	text-align: center;
+	font-family: Outfit;
+	font-size: 20px;
+	border-radius: 15px;
+	border: 0px;
+}
+.loginInput .box{
+	display: grid;
+	justify-content: center;
+}
+.loginInput #goBox{
+	grid-column: 3/4;
+	grid-row: 1/3;
+	display: grid;
+	place-items: center;
+}
+.loginInput #go{
+	width: 50%;
+	height: 90px;
+	display: grid;
+	place-items: center;
+	object-fit: cover;
+	background-color: #5B9BE6;
+	border-radius: 15px;
+	font-family: Outfit;
+	font-size: 30px;
+	cursor: pointer;
+}

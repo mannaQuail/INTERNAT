@@ -1,0 +1,481 @@
+*{padding:0;margin:0}
+a:link{color:black; text-decoration: none;}
+a:visited{color:black; text-decoration: none;}
+a:hover{color:black; text-decoration: underline;}
+li{list-style: none;}
+body{
+	background-color: #FFFFFF;
+}
+.mainNavBar{
+	width : 83.34%;
+	height: 135px;
+	margin-left: 8.33%;
+	margin-right: 8.33%;
+	margin-top: 10px;
+	display: grid;
+
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 95px 40px;
+	grid-column-gap: 5%;
+}
+.mainNavBar li{
+	text-align: center;
+}
+.mainNavBar #logo{
+	grid-column: 3/4;
+	grid-row: 1/2;
+	font-family: Outfit;
+	font-size: 35px;
+	font-weight: 800;
+}
+.mainNavBar #logo div{
+	padding-top: 10px;
+}
+.mainNavBar #logo div span{
+	color: #9F2230;
+}
+.mainNavBar #logo a:hover{color: black; text-decoration: none;}
+.mainNavBar #loginBox{
+	grid-row: 1/2;
+	grid-column: 5/6;
+	font-family: Outfit;
+}
+.mainNavBar #loginBox #logout{
+	width: 113px;
+	height: 20px;
+	float: right;
+	margin-top: 15px;
+	background-color: #AAD9D9;
+	border-radius: 15px;
+	cursor: pointer;
+}
+.mainNavBar .text{
+	grid-row: 2/3;
+	display: grid;
+	align-items: end;
+}
+.mainNavBar .text div{
+	background-color: #D9D9D9;
+	width: 100%;
+	height: 40px;
+	border-radius: 20px;
+	font-family: Outfit;
+	font-size: 20px;
+	text-align: center;
+	display: grid;
+	align-items: center;
+}
+.mainNavBar #schoolLife{
+	grid-column: 4/5;
+}
+.mainNavBar #faq{
+	grid-column: 5/6;
+}
+
+.mainContent1{
+	width: 83.34%;
+	margin-left: 8.33%;
+	margin-right: 8.33%;
+	margin-top: 40px;
+	border-top: 2px solid black;
+	padding-top: 20px;
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr 1fr 4fr;
+}
+
+.mainContent1 .img1{
+	border: 10px solid #ADD1D1;
+	border-radius: 100%;
+	float: left;
+	width:100px;
+	height: 91px;
+}
+
+.mainContent1 #infotext{
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+
+.mainContent1 .img2{
+	border: 5px solid #8b2d1c;
+	border-radius: 100%;
+	float: left;
+	width:20%
+}
+
+
+.mainContent1 .img3{
+	border: 5px solid #0c049b;
+	border-radius: 100%;
+	float: left;
+	width:20%;
+}
+
+.mainContent2{
+	height: 30px;
+	margin-left: 8.33%;
+	margin-right: 75%;
+	margin-top: 30px;
+	border: 100px;
+	border-radius: 60px;
+	background-color: #B0C8CA;
+}
+
+.mainContent2 #text{
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	color:rgb(255, 255, 255);
+}
+
+.mainContent3{
+	width: 83.34%;
+	margin-left: 8.33%;
+	margin-right: 8.33%;
+	margin-top: 15px;
+	display: grid;
+}
+
+.mainContent3 img{
+	width:100%;
+	border-radius: 5%;
+}
+
+.mainContent3 .pointer{
+	position: absolute;
+	width: 83.34%;
+	left: 8.33%;
+	top: 400px;
+}
+.mainContent3 .pointer .entering{
+	position: relative;
+}
+.mainContent3 .pointer .entering img{
+	border: 5px solid #8b2d1c;
+	border-radius: 100%;
+	width:3%;
+	cursor: pointer;
+}
+.mainContent3 .pointer .entering #frontdoor{
+	position: absolute;
+	left: 87%;
+	margin-top: 5%;
+}
+.mainContent3 .pointer .entering #foreign{
+	position: absolute;
+	left: 63%;
+	margin-top: 11%;
+}
+.mainContent3 .pointer .entering #bio{
+	position: absolute;
+	left: 43%;
+	margin-top: 23%;
+}
+.mainContent3 .pointer .entering #square{
+	position: absolute;
+	left: 28%;
+	margin-top: 34%;
+}
+.mainContent3 .pointer .outing img{
+	border: 5px solid #0c049b;
+	border-radius: 100%;
+	width:3%;
+	cursor: pointer;
+}
+.mainContent3 .pointer .outing{
+	position: relative;
+}
+.mainContent3 .pointer .outing #frontdoor{
+	position: absolute;
+	left: 90%;
+	margin-top: 2%;
+}
+.mainContent3 .pointer .outing #foreign{
+	position: absolute;
+	left: 65%;
+	margin-top: 16%;
+}
+.mainContent3 .pointer .outing #bio{
+	position: absolute;
+	left: 51%;
+	margin-top: 24%;
+}
+.mainContent3 .pointer .outing #square{
+	position: absolute;
+	left: 24%;
+	margin-top: 41%;
+}
+.mainContent3 #modals{
+	position: absolute;
+	width: 83.34%;
+}
+.mainContent3 #modals #modalforeignenter{
+	display: none;
+	position: absolute;
+	margin-top: 15%;
+	left: 63%;
+	transform: translate(-50%, 0%);
+	width: 30%;
+	height: auto;
+}
+.mainContent3 #modals #modalforeignout{
+	display: none;
+	position: absolute;
+	margin-top: 20%;
+	left: 65%;
+	transform: translate(-50%, 0%);
+	width: 30%;
+	height: auto;
+}
+.mainContent3 #modals #modalbioenter{
+	display: none;
+	position: absolute;
+	margin-top: 27%;
+	left: 43%;
+	transform: translate(-50%, 0%);
+	width: 30%;
+	height: auto;
+}
+.mainContent3 #modals #modalbioout{
+	display: none;
+	position: absolute;
+	margin-top: 28%;
+	left: 51%;
+	transform: translate(-50%, 0%);
+	width: 30%;
+	height: auto;
+}
+.mainContent3 #modals #modalsquareenter{
+	display: none;
+	position: absolute;
+	margin-top: 35%;
+	left: 28%;
+	transform: translate(-50%, -100%);
+	width: 30%;
+	height: auto;
+}
+.mainContent3 #modals #modalsquareout{
+	display: none;
+	position: absolute;
+	margin-top: 42%;
+	left: 24%;
+	transform: translate(-50%, -100%);
+	width: 30%;
+	height: auto;
+}
+.mainContent3 #modals .modaldetail #modalbody{
+	width: 100%;
+	background-color: #D9D9D9;
+	border-radius: 20px;
+}
+.mainContent3 #modals .modaldetail #modalbody #x{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	cursor: pointer;
+}
+.mainContent3 #modals .modaldetail #modalbody #busimg{
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.mainContent4{
+	width: 83.34%;
+	height: 30px;
+	margin-left: 8.33%;
+	margin-right: 70%;
+	margin-top: 30px;
+	border: 100px;
+}
+.mainContent4 #businfo{
+	width: 100%;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	color:rgb(255, 255, 255);
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.mainContent4 #businfo div{
+	width: 50%;
+	border-radius: 15px;
+	background-color: #B0C8CA;
+}
+
+.mainContent5{
+	display: grid;
+	width: 83.34%;
+	margin-left: 8.33%;
+	margin-right: 8.33%;
+	margin-top: 30px;
+	grid-template-columns:1fr 1fr;
+}
+
+.mainContent5 #text{
+	text-align: center;
+	margin-left: 140px;
+	margin-top: 20px;
+	font-weight: bold;
+}
+.mainContent5 .EnteringBus{
+	display: grid;
+	width: 95%;
+	margin-right: 8.33%;
+	background-color: #D9D9D9;
+	border:none;
+	border-radius: 60px / 40px;
+	position: relative;
+	z-index:1;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.mainContent5 .EnteringBus .bus9{
+	display: grid;
+	width: 100%;
+	z-index: 2;
+	margin-left: 10px;
+	font-size: 20px;
+}
+
+
+.mainContent5 .EnteringBus .bus5100{
+	display: grid;
+	width:100%;
+	z-index: 2;
+	margin-left: 15px;
+}
+
+.mainContent5 .EnteringBus .bus1560{
+	display: grid;
+	width:100%;
+	z-index: 2;
+	margin-left: 10px;
+}
+
+
+.mainContent5 .EnteringBus .bus1112{
+	display: grid;
+	width:100%;
+	z-index: 2;
+	margin-left: 10px;
+}
+
+
+.mainContent5 .EnteringBus .bus7000{
+	display: grid;
+	width:100%;
+	z-index: 2;
+}
+
+.mainContent5 .EnteringBus #bus9{
+	display: grid;
+	font-weight: bold;
+	margin-top: 80px;
+	font-size: 20px;
+	grid-column-start: 2;
+	text-align: center;
+}
+
+.mainContent5 .EnteringBus #bus5100{
+	display: grid;
+	font-weight: bold;
+	margin-top: 80px;
+	font-size: 20px;
+	text-align: center;
+}
+
+.mainContent5 .EnteringBus #bus1560{
+	display: grid;
+	font-weight: bold;
+	margin-top: 80px;
+	font-size: 20px;	
+	text-align: center;
+}
+
+.mainContent5 .EnteringBus #bus1112{
+	display: grid;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 80px;
+	font-size: 20px;
+}
+
+.mainContent5 .EnteringBus #bus7000{
+	display: grid;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 80px;
+	font-size: 20px;
+}
+
+
+.mainContent5 .NoEnteringBus{
+	display: grid;
+	background-color: #D9D9D9;
+	border:none;
+	border-radius: 60px / 40px;
+	z-index:1;
+	grid-column: 1fr 1fr;
+	grid-row: 1fr 1fr 1fr;
+}
+
+.mainContent5 .NoEnteringBus .busg5100{
+	display: grid;
+	width: 100%;
+	margin-right: 8.33%;
+	background-color: #D9D9D9;
+	border-radius: 60px / 40px;
+	z-index:2;
+	grid-column-start: 1;
+}
+
+.mainContent5 .NoEnteringBus .bus55{
+	display: grid;
+	width: 100%;
+	margin-right: 8.33%;
+	background-color: #D9D9D9;
+	border-radius: 60px / 40px;
+	z-index:2;
+}
+
+.mainContent5 .NoEnteringBus .bus1550-1{
+	display: grid;
+	width: 100%;
+	margin-right: 8.33%;
+	background-color: #D9D9D9;
+	border-radius: 60px / 40px;
+	z-index: 2;
+}
+
+.mainContent5 .NoEnteringBus #busg5100{
+	display: grid;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 80px;
+	font-size: 20px;
+	grid-column-start: 2;
+}
+
+.mainContent5 .NoEnteringBus #bus55{
+	display: grid;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 80px;
+	font-size: 20px;
+}
+
+.mainContent5 .NoEnteringBus #bus1550-1{
+	display: grid;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 80px;
+	font-size: 20px;
+}

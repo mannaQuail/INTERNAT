@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="writing.css">
+	<title>writing_information</title>
+</head>
+<body>
+	<ul class="mainNavBar">
+		<li id="logo"><a href="../../INTERNAT_login.html"><div>INTER<span>NAT</span></div></a></li>
+		<li id="loginBox">
+			<a href="../../INTERNAT_unlogin.html"><div id="logout">LOG OUT</div></a>
+		</li>
+		<li class="text"><a href="../information.html"><div>Information</div></a></li>
+		<li class="text"><a href="../../community/community.html"><div>Community</div></a></li>
+		<li class="text" id="schoolLife"><a href="../../schoolLife/schoolLife.html"><div>School Life</div></a></li>
+		<li class="text" id="faq"><a href="../../faq/faq.html"><div>FAQ</div></a></li>
+	</ul>
+	<div class="titleContainer"><div class="title">Community</div></div>
+	<div class="mainContent">
+		<div class="titleWriting">
+			<input type="text" placeholder="Please enter the title" onfocus="this.placeholder='" onblur="this.placeholder='Please enter the title" id="contentTitle">
+			<div id="writer" class="auto"></div>
+			<div id="date" class="auto"></div>
+		</div>
+		<div class="content">
+			<textarea id="text"></textarea>
+			<div class="publishContainer">
+				<div class="textNum"><span id="textnum">0</span><span>/2000</span></div>
+				<div id="publish">Publish</div>			
+			</div>
+		</div>
+	</div>
+	<script src="writing.js"></script>
+</body>
