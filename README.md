@@ -6,4 +6,5 @@ We wanted to help forgien student because they didn't know well about school inf
 And according to our research, they want community to share the information.<br>
 So we decided to combine and serve school information and community.<br>
 
-## Function
+## Description
+
